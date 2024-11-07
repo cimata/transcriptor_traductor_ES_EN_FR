@@ -3,6 +3,9 @@ pip install openai-whisper
 pip install deepl
 
 pip install --upgrade --no-cache-dir openai-whisper # Upgrade openai-whisper to ensure you have latest version
+
+# NB: Los pips anteriores no funcionan en Hugging Face Spaces, donde son cargados a partir del fichero de texto requirements
+
 import deepl
 import whisper  # Importing the whisper library
 
